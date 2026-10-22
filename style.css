@@ -1,0 +1,36 @@
+.COOKIE {
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.2s ease;
+}
+
+.COOKIE:hover {
+    transform: translate(-50%, -50%) scale(1.08);
+}
+
+.COOKIE:active {
+    transform: translate(-50%, -50%) scale(0.95);
+}
+
+body {
+    background-color: rgb(87, 87, 87);
+}
+
+p {
+    color: white;
+    margin: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+
+h1 {
+    color: white;
+    margin: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
